@@ -6,6 +6,10 @@ repositories {
 	jcenter()
 }
 
+allprojects {
+	group 'tim-group'
+}
+
 dependencies {
 	implementation 'com.google.code.findbugs:findbugs:3.0.1'
 	implementation 'org.hamcrest:hamcrest-core:1.2'
